@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register wallet</title>
+</head>
+<body>
+<form action="https://yoomoney.ru/oauth/authorize" method="post">
+    <div>
+        <input name="client_id" id='client_id' value="0EEDF899202B1B7D9EC0582488E9C169C00F97CDD243AB386ECD357F49FAFE26">
+    </div>
+    <div>
+        <input name="response_type" id="response_type" value="code">
+    </div>
+    <div>
+        <input name="redirect_uri" id="redirect_uri" value="http://crow.test/yoo/auth/accept">
+    </div>
+    <div>
+        <input name="scope" id="scope" value="account-info operation-history payment-shop payment-p2p">
+    </div>
+    <div>
+        <button type="submit">register wallet for operations</button>
+    </div>
+</form>
+</body>
+</html>

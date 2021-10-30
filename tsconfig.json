@@ -5,6 +5,8 @@
     "target": "ES2017",
     "sourceMap": true,
     "moduleResolution": "Node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "outDir": "dist",
     "baseUrl": "."
   },

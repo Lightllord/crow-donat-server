@@ -5,3 +5,8 @@
 /node_modules
 /.idea
 /src/*.js
+/tools
+
+#essential configs
+/configs/*config.ts
+!/configs/example*config.ts
